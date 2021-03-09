@@ -1,0 +1,171 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin-right: 0;
+    margin-left: 0;
+}
+ body {
+     font-family: 'Helvetica Neue', Arial, sans-serif;
+ }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-main {
+    width: 202px;
+    height: 63px;
+    background-color: #B57AD2;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #B57AD2;
+    border-radius: 31px;
+}
+
+h2 {
+    text-align: center;
+    color: #3C3C3C;
+    font-size: 32px;
+}
+
+p {
+    color: #2B292D;
+    font-size: 16px;
+    line-height: 34px;
+}
+
+}
+
+    /* HEADER */ 
+
+header {
+    width: 100%;
+    height: 10vh;
+    background: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+nav ul {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+
+}
+nav ul li {
+    display: inline-block;
+}
+.logo {
+    float: left;
+    margin-left: 10% ;
+}
+.btn-h {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-header {
+    display: inline-block;
+    height: 46px;
+    width: 160px;
+    border: 1px solid #B57AD2;
+    border-radius: 23px;
+    background-color: white; 
+    color: #B57AD2;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+    /* Main */
+
+.grid-main {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr) ;
+}
+    /* Section 1 */
+
+.block1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.block1 .text-1 {
+    margin-top: 25%;
+    margin-left: 20%;
+}
+
+.imgsect1 {
+    background-color:rgba(181, 122, 210, 0.77);
+}
+
+    /* Section 2 */
+
+.titre2 {
+    align-items: center;
+}
+
+.psect2 {
+    text-align: center;
+}
+
+.text2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+    /* Section 3 */
+
+    /* Section 4 */
+
+    /* Section 5 */
+
+.section5 {
+    background-color: #B57AD2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+    /* Section 6 */
+
+    /* Section 7 */
+
+.list-color {
+    list-style-type: none;
+}
+
+.list-color li:before {
+    content: "\2022";
+    color: #B57AD2;
+}
+
+    /* Section 8 */
+
+.grid-8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.titre8 {
+    text-align: center;
+}
+
+label, textarea {
+    display: inline-block;
+    display: flex;
+    -ms-flex-direction: column;
+}
+
+
+    /* Footer */
+
+footer {
+    display: flex;
+    background-color: #B57AD2;
+    color: white;
+    justify-content: space-around;
+}
+
+.list-footer {
+    list-style-type: none;
+}
