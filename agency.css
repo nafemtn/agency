@@ -12,17 +12,6 @@ img {
     height: auto;
 }
 
-.btn-main {
-    width: 202px;
-    height: 63px;
-    background-color: #B57AD2;
-    color: white;
-    font-size: 18px;
-    line-height: 21px;
-    border: 1px solid #B57AD2;
-    border-radius: 31px;
-}
-
 h2 {
     text-align: center;
     color: #3C3C3C;
@@ -81,6 +70,19 @@ nav ul li {
     display: grid;
     grid-template-rows: 1fr repeat(8, 2fr) 1fr;
 }
+
+.btn-main, .btn4 {
+    width: 202px;
+    height: 63px;
+    background-color: #B57AD2;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #B57AD2;
+    border-radius: 31px;
+}
+
+
     /* Section 1 */
 
 .block1 {
@@ -114,13 +116,31 @@ nav ul li {
 
     /* Section 3 */
 
+.title3 {
+    text-align: center;
+}
 
 
     /* Section 4 */
 
+.title4 {
+    text-align: center;
+}
+
 .block4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.div4 {
+    text-align: center;
+}
+
+.btn4 {
+   display: block;
+   margin: auto;
+   margin-bottom: 20px;
 }
 
     /* Section 5 */
@@ -133,6 +153,10 @@ nav ul li {
 
     /* Section 6 */
 
+.title6 {
+    text-align: center;
+}
+
     /* Section 7 */
 
 .section7 {
@@ -143,8 +167,10 @@ nav ul li {
 .title7 {
     text-align: center;
 }
+
 .list-color {
     list-style-type: none;
+    font-size: 18px;
 }
 
 .list-color li:before {
@@ -152,13 +178,14 @@ nav ul li {
     color: #B57AD2;
 }
 
+
     /* Section 8 */
 
 .grid-8 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
+
 .titre8 {
     text-align: center;
 }
@@ -169,7 +196,6 @@ label, textarea {
     -ms-flex-direction: column;
 }
 
-
     /* Footer */
 
 footer {
@@ -179,7 +205,6 @@ footer {
     background-color: #B57AD2;
     color: white;
     justify-content: space-around;
-
 }
 
 .list-footer {
