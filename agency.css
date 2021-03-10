@@ -1,8 +1,4 @@
-*, ::before, ::after {
-    box-sizing: border-box;
-    margin-right: 0;
-    margin-left: 0;
-}
+
  body {
      font-family: 'Helvetica Neue', Arial, sans-serif;
  }
@@ -17,6 +13,9 @@ h2 {
     color: #3C3C3C;
     font-size: 32px;
 }
+.size32 {
+    font-size: 32px;
+}
 
 p {
     color: #2B292D;
@@ -26,15 +25,6 @@ p {
 
     /* HEADER */ 
 
-header {
-    width: 100%;
-    height: 10vh;
-    background: white;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
 nav ul {
     padding: 0;
     text-align: center;
@@ -48,12 +38,8 @@ nav ul li {
     float: left;
     margin-left: 10% ;
 }
-.btn-h {
-    display: flex;
-    justify-content: flex-end;
-}
+
 .btn-header {
-    display: inline-block;
     height: 46px;
     width: 160px;
     border: 1px solid #B57AD2;
@@ -88,15 +74,17 @@ nav ul li {
 .block1 {
     display: grid;
     grid-template-columns: 50% 50%;
+    justify-content: flex-end;
+}
+
+.img-sec1 {
+    background-color: rgba(181, 122, 210, 0.77);
+    background-image: linear-gradient( rgba(181, 122, 210, 0.776388), white);
 }
 
 .block1 .text-1 {
     margin-top: 25%;
     margin-left: 20%;
-}
-
-.imgsect1 {
-    background-color:rgba(181, 122, 210, 0.77);
 }
 
     /* Section 2 */
@@ -112,14 +100,33 @@ nav ul li {
 .text2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    text-align: center;
 }
-
+    
     /* Section 3 */
 
 .title3 {
     text-align: center;
 }
 
+.sec3bg {
+    text-align: center;
+}
+
+#grid.sec3 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.sec3.div1 {
+}
+
+.sec3.div2 {
+}
+
+.sec3.div3 {
+}
 
     /* Section 4 */
 
@@ -147,14 +154,54 @@ nav ul li {
 
 .section5 {
     background-color: #B57AD2;
+    background-image: linear-gradient( white, rgba(181, 122, 210, 0.776388));
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
+.h2-5 {
+    font-size: 56px;
+    width: 100%;
+}
+
+.img5 { 
+    margin: 10%;
+}
+
+.text5 {
+    margin-top: 5% ;
+}
+
+.sec5p {
+    line-height: 34px;
+}
+
+.sec5p1 {
+    padding-top: 10%;
+}
+
+.sec5p1, .sec5p2 {
+    line-height: 22px;
+}
+
     /* Section 6 */
 
+.section6 {
+    background-color: rgba(181, 122, 210, 0.77);
+    background-image: linear-gradient( rgba(181, 122, 210, 0.776388), white);
+}
 .title6 {
     text-align: center;
+}
+
+.h2-6 {
+    font-size: 36px;
+}
+
+.img6.2 {
+    z-index: 2 ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
     /* Section 7 */
@@ -178,22 +225,39 @@ nav ul li {
     color: #B57AD2;
 }
 
-
     /* Section 8 */
 
 .grid-8 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
 }
 
 .titre8 {
     text-align: center;
 }
 
-label, textarea {
+.select {
+    text-align: center;
+}
+
+textarea {
+    margin-top: 5% ;
+    margin-bottom: 10% ;
+}
+
+label {
     display: inline-block;
     display: flex;
     -ms-flex-direction: column;
+    padding-bottom: 5%;
+}
+
+.form {
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
 }
 
     /* Footer */
