@@ -295,51 +295,64 @@ h3 + p {
 
 .section8 {
     background-color: #f9f4fc;
+    
 }
 
 .grid-8 {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
 }
 
 .titre8 {
     text-align: center;
-    margin-top: 10%;
+    padding-top: 1%;
 }
-
 
 .text8 {
-    margin-left: 25%;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-textarea {
-    margin-bottom: 10% ;
-    text-align: left;
+    width: 45%;
+    margin-bottom: 1%;
+    margin-left: 5%;
 }
 
 /*Formulaire*/
 
-label  {
-    display: block;
+.alig-form {
+    display: flex;
+    float: left;
+    width: 20%;
+    margin-bottom: 10%;
+    font-size: 25px;
+    margin-left: 20%;
 }
 
-h4 {
+
+label {
+    padding-top: 5%;
+}
+
+.title-form {
+    font-family:  Helvetica, sans-serif;
     font-size: 24px;
+    font-family: HelveticaNeue;
+    font-family: HelveticaNeue;
+    line-height: 28px;
+}
+
+textarea {
+    margin-top: 5%;
+}
+.btn-f {
+    margin-bottom: 20%;
 }
 
     /* Footer */
 
 
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr ;
-    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
     background-color: #B57AD2;
     color: white;
-    justify-content: space-around;
-
 }
 
 .list-footer {
