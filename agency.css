@@ -209,24 +209,35 @@ h3 + p {
 }
 
 .img5 { 
-    margin: 10% auto 10% 10%;
+    margin: 10% 0 10% 10%;
 }
 
 .text5 {
-    margin-top: 5% ;
-    width: auto;
+    width: 80%;
+    margin-top: 8% ;
+    margin-left: -5%;
 }
 
 .sec5p {
     line-height: 34px;
+    
+/*
+    padding-left: 3%;
+    padding-right: 3%; */
+
 }
 
 .sec5p1 {
     padding-top: 10%;
+    
 }
 
 .sec5p1, .sec5p2 {
     line-height: 22px;
+/*
+    padding-left: 3%;
+    padding-right: 3%;
+*/
 }
 
     /* Section 6 */
@@ -253,8 +264,8 @@ h3 + p {
 .section6 .img6 {
     position: absolute;
     z-index: 1;
-    padding-left: 44%;
-    padding-top: 10%;
+    padding-left: 40%;
+    padding-top: 6%;
 } 
     /* Section 7 */
 
@@ -279,14 +290,14 @@ h3 + p {
 
 .list-color  {
     list-style-type: none;
-    font-size: 18px;
+    font-size: 20px;
     
 }
 
 .list-color  li:before {
     content: "\2022";
     color: #B57AD2;
-    font-size: 35px;
+    font-size: 45px;
     vertical-align: middle;
     padding-right: 3%;
 }
@@ -340,6 +351,7 @@ label {
 textarea {
     margin-top: 5%;
 }
+
 .btn-f {
     margin-bottom: 20%;
 }
@@ -349,12 +361,53 @@ textarea {
 
 footer {
     display: flex;
-    flex-direction: row;
     height: 40vh;
     background-color: #B57AD2;
     color: white;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    margin-left: 5%;
+}
+
 .list-footer {
-    list-style-type: none;
+    padding-right: 120%;
+    width: 40%;
+}
+
+.social-media {
+    text-align: center;
+}
+
+    /* Media queries */
+
+/* pbm section3 */
+
+@media screen and (max-width: 1439px) { 
+
+    .sec3bg {
+        display: none;
+    }
+
+    .div3 {
+    margin-top: auto;
+    }
+
+}
+
+/* Ipad */
+/* Ipad - paysage */
+
+/*Iphone 6 7 8  */
+/*Iphone 6 7 8 - paysage  */
+
+
+
+
+
+
+
 }
