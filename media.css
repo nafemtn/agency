@@ -21,7 +21,21 @@
 }      
 
 @media screen and (max-width: 770px) {
-   
+
+/* Header */
+
+    .nav-bar {
+        display: block;
+    }
+
+/* section2 */ 
+
+    .btn-2 {
+        position: relative;
+        margin-top: 50px;
+    }
+
+/* section3 */
     .div3 {
         display: block;
         background: none;
@@ -42,4 +56,32 @@
         padding-left: 2%;
         padding-right: 2%;
     }
+
+    .sec3bg2 {
+        height: 39vh;
+    }
+
+    .text5 {
+         width: 300px;
+    }
+
+/*Section5*/ 
+    .h2-5 {
+        margin-top: 35px;
+        font-size: 30px ;
+        text-align: left;
+    }
+
+/* Section8 */
+
+    .text8 {
+        text-align: center;
+    }
+
+/*Forms*/ 
+    .alig-form {
+            
+            margin-right: 20%;
+        }
+
 }
