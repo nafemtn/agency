@@ -1,7 +1,7 @@
 
                     /* Media queries */
 
-@media screen  and (max-width: 1439px) {
+@media screen  and (max-width: 1439px) and (min-width: 635px)  {
 
     .sec3bg {
             display: none;
@@ -20,7 +20,9 @@
     
 }      
 
-@media screen and (max-width: 770px) {
+                /* Ipad - 768x1024 */
+
+@media screen and (max-width: 770px) and (min-width: 667px) {
 
 /* Header */
 
@@ -36,6 +38,7 @@
     }
 
 /* section3 */
+
     .div3 {
         display: block;
         background: none;
@@ -61,16 +64,17 @@
         height: 39vh;
     }
 
-    .text5 {
-         width: 300px;
-    }
-
+   
 /*Section5*/ 
+
     .h2-5 {
         margin-top: 35px;
         font-size: 30px ;
         text-align: left;
     }
+    .text5 {
+            width: 300px;
+        }
 
 /* Section8 */
 
@@ -79,12 +83,59 @@
     }
 
 /*Forms*/ 
+
     .alig-form {
-            
             margin-right: 20%;
         }
 
 }
+                /* Iphone - 667x375 */ 
+
+@media screen and (max-width: 667px) {
+
+/* Section 3*/
+
+.div3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec3bg1, .sec3bg2 {
+    height: 70vh;
+    width: 100%;
+}
+
+/* Sextion4 */
+
+.block4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.pointer {
+    display: none;
+}
+
+.div4 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Section 5*/
+
+.img5 {
+    width: 60%;
+    margin-top: 25%;
+}
+
+.text5 {
+    margin-left: -20%;
+}
+
+}
+
+                /* Iphone - 375x667 */ 
 
 @media screen and (max-width: 375px) {
 
@@ -102,9 +153,9 @@
 
     nav ul li {
         display: block;
-            display: inline-block;
-            vertical-align: middle;
-            padding-left: 0;
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 0;
     }
 
 /*Section1*/     
@@ -144,6 +195,10 @@
     width : 45px;
 }
 
+.sec3bg {
+    display: none;
+}
+
 .sec3bg1, .sec3bg2 {
     width: 300px;
     height: 45vh;
@@ -160,9 +215,16 @@
     display: none;
 }
 
+/* Section 5 */
 .section5 {
     display: flex;
     flex-direction: column;
+}
+.h2-5 {
+    text-align: left;
+}
+.text5 {
+    margin: auto;
 }
 
 .img5 {
